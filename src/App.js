@@ -6,7 +6,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_KEY = '71947d5a53324a55b7b144755262803'; // Replace with your actual API key
+  const API_KEY = '71947d5a53324a55b7b144755262804'; // Replace with your actual API key
 
   const fetchWeatherData = async () => {
     if (!city) return;
